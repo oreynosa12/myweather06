@@ -12,7 +12,7 @@
 
 body{
     
-    background-image: url(https://media.istockphoto.com/id/506064243/photo/glorious-sunrise-over-mountain-peaks-wilderness-panorama-highlands-scotland.jpg?s=612x612&w=0&k=20&c=48H6cZg98j9wbyr-h6xEeXoLXE1WX9zwwWSPIEBwdfY=);
+    background-image: url(https://media.istockphoto.com/id/1124624581/photo/bright-hues-of-sunset-over-distant-mountains-ridge-in-atacama-desert-chile-south-america.jpg?s=612x612&w=0&k=20&c=D7eq0Oli443gKdRCNo7esenyw8KrcPq_sWu4RLpFMlY=);
     background-size: cover;
     height: 100vh;
 
@@ -30,14 +30,21 @@ body{
     font-size: 30px;
 }
 
-.search-bar {
-    height: 60px;
+input.search-bar {
+    height: 35px;
+    width: 300px;
+    margin: 8px;
 }
 .btn{
-    height: 30px;
-    width: 90px;
+    height: 35px;
+    width: 100px;
     border-radius: 10px;
+    margin: 20px;
 
+}
+
+.list-group-item{
+    width: 40%;
 }
 
 /* .card{
