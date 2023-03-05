@@ -22,29 +22,43 @@
     <section>
       <div class="container">
         <h2 class="h2">Search for a City:</h2>
-        <form action=" ">
+        <form>
           <input
             class="search-bar"
             type="text"
             placeholder="Search your City Weather"
-            name="q"
+            name="city"
+            id="city"
           />
         </form>
-        <button type="submit" class="btn btn-outline-secondary">
+        <button id="search" type="button" class="btn btn-outline-secondary">
           <strong>Search</strong>
           <img src="" alt="" />
         </button>
-        <ul class="list-group">
-          <li class="list-group-item active" aria-current="true">
-            Most recent City search
-          </li>
-          <button class="list-group-item">Columbus, OH</button>
-          <button class="list-group-item">Denver, CO</button>
-          <button class="list-group-item">Seattle, WA</button>
-          <button class="list-group-item">San Diego, CA</button>
-        </ul>
+        <div class="card">
+          <div class="weather"></div>
+          <h3>Weather in Dayton</h3>
+          <div class="temp">55 degrees</div>
+          <div class="description">Sunny</div>
+          <div class="humidity">30%</div>
+          <div class="wind">10mph</div>
+        </div>
+      </div>
+      <div class="forecast">
+        <div class="weather"></div>
+        <h3>5 Day Forecast</h3>
+        <div class="temp">55 degrees</div>
+        <div class="description">Sunny</div>
+        <div class="humidity">30%</div>
+        <div class="wind">10mph</div>
       </div>
     </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
 
     <script src="assets/js/script.js"></script>
     <script
