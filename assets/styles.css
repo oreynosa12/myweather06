@@ -35,6 +35,15 @@ input.search-bar {
   margin: 20px;
 }
 
+.flex-container {
+  display: flex;
+}
+
+#h3 {
+  display: flex;
+    align-items: center;
+    color: aliceblue;
+}
 .card {
   background: #ffffffee;
   padding: 2em;
