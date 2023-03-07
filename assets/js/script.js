@@ -2,7 +2,7 @@ let weather = "db61d99869c29302a76214785fc276c2";
 
 function currentWeather(city) {
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${weather}`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${weather}`
   )
     .then(function (data) {
       return data.json();
@@ -26,7 +26,7 @@ function currentWeather(city) {
 
 function fiveForecast(cities) {
   fetch(
-    `http://api.openweathermap.org/data/2.5/forecast?q=${cities}&units=imperial&appid=${weather}`
+    `https://api.openweathermap.org/data/2.5/forecast?q=${cities}&units=imperial&appid=${weather}`
   )
     .then(function (data) {
       return data.json();
@@ -58,8 +58,6 @@ function fiveForecast(cities) {
         );
         $("#" + currentDay + " .weather").append(img);
       }
-
-      
     });
 }
 
